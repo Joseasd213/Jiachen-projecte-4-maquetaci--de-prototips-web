@@ -1,36 +1,82 @@
 /*Body*/
 
 body{
-    padding: 0px;
     margin: 0px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(206, 203, 203);
+
 }
 
 /*Header*/
 
-header{
+header {
+    background-color: #333;
+    color: #fff;
+    padding-top: 5px;
     text-align: center;
-    background-color: black;
 }
 
 header h1{
-    padding-top: 20px;
     color: white;
 }
 
 header p{
-    color: white;
-    padding-bottom: 20px;
+    color: white;   
+    padding-bottom: 10px;
 }
 /*Contenidos-Header*/
 
 
 /*Main*/
 main{
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-left: 480px;
+    padding-right: 480px;
     display: block;
     align-items: center;
 }
 
 /*Palabras*/
 
+/*Flex*/
+
+.flex{
+    display: flex;
+}
+
+/*Containers*/
+
+.container{
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    width: 290px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.container p{
+    font-size: 20px;
+
+}
+
+/*Gallery*/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 2000px;
+}
+
+/*imagenes*/
+
+.container img{
+
+    margin: 20px;
+    width: 240px;
+    border: solid black;
+    object-fit: contain;
+}
