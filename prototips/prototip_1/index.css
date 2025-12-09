@@ -1,0 +1,69 @@
+/*Body*/
+
+body{
+    margin: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+/*Title*/
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+
+    width: 650px;
+}
+
+/*Aplicante*/
+
+.flex{
+    display: flex;
+}
+
+/*Palabras*/
+
+h1{
+    font-size: 64px;
+    font-style: normal;
+    display: block;
+    font-weight: 10;
+}
+
+p{
+    font-size: 26px;
+    display: block;
+}
+
+/*Button*/
+
+button{
+    background-color: black;
+    color: #fff;
+    padding: 18px 48px;
+    border-radius: 16px;
+    font-size: 18px;
+}
+
+/*Imagenes*/
+
+img{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/*Galeria*/
+
+.gallery{
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
