@@ -1,0 +1,58 @@
+/*Body*/
+
+body{
+    margin: 20px;
+    align-items: center;
+}
+/*Sections*/
+
+section{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+/*Imagenes*/
+
+img{
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/*Botones*/
+
+button{
+    background-color: black;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/*Titulo*/
+
+.titulo{
+    font-size: 25px;
+    width: 280px;
+}
+
+/*Imagenes-separadas*/
+
+.imagenes-separadas{
+    gap: 60px;
+    padding-right: 40px;
+}
+
+/*imagen-arriba*/
+
+.imagen-arriba{
+    margin-left: 75px;
+    gap: 60px;
+    padding-left: 50px;
+}
+
+.imagen-arriba img{
+    height: 500px;
+    margin: 20px;
+}
