@@ -3,14 +3,19 @@
 body{
     margin: 20px;
     align-items: center;
+    background-color: gray;
+    padding-left: 200px;
+    padding-right: 200px    ;
 }
 /*Sections*/
 
 section{
     flex-wrap: wrap;
     display: flex;
-    justify-content: center;
     padding-top: 80px;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: white;
 }
 /*Imagenes*/
 
@@ -34,25 +39,26 @@ button{
 
 .titulo{
     font-size: 25px;
-    width: 280px;
+    width: 400px;
 }
 
 /*Imagenes-separadas*/
 
-.imagenes-separadas{
-    gap: 60px;
-    padding-right: 40px;
-}
+
 
 /*imagen-arriba*/
 
 .imagen-arriba{
-    margin-left: 75px;
-    gap: 60px;
-    padding-left: 50px;
+
 }
 
 .imagen-arriba img{
     height: 500px;
-    margin: 20px;
+
+}
+
+/*Blanco*/
+
+.blanco{
+    background-color: white;
 }
