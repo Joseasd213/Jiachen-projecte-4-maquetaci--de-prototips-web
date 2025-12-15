@@ -1,0 +1,78 @@
+/*Body*/
+
+body{
+    align-items: center;
+    background-color: gray;
+    padding-left: 300px;
+    padding-right: 300px    ;
+}
+/*Sections*/
+
+section{
+    align-items: center;
+    width: 1300px;
+    height: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: white;
+}
+/*Imagenes*/
+
+img{
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/*Botones*/
+
+button{
+    background-color: black;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 18px;
+    font-size: 16px;
+}
+
+/*Titulo*/
+
+.titulo{
+    font-size: 25px;
+    width: 400px;
+    height: 500px;
+}
+
+/*Palabras*/
+
+.titulo-abajo{
+    color: rgb(184, 184, 184);
+    font-family: sans-serif;
+    font-weight: 10px;
+    font-size: 20px;
+}
+
+/*Imagenes-separadas*/
+
+.imagenes-separadas img{
+    height: 381px; 
+}
+
+/*imagen-arriba*/
+
+.upup{
+    margin-bottom: 100px;
+}
+
+.downdown{
+    margin-top: 100px;
+}
+
+.imagen-arriba img{
+    height: 500px;
+}
+
