@@ -1,78 +1,46 @@
 /*Body*/
-
 body{
-    align-items: center;
-    background-color: gray;
-    padding-left: 300px;
-    padding-right: 300px    ;
-}
-/*Sections*/
-
-section{
-    align-items: center;
-    width: 1300px;
-    height: 600px;
-    padding-left: 40px;
-    padding-right: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
-    justify-content: center;
-    justify-content: space-around;
-    background-color: white;
-}
-/*Imagenes*/
-
-img{
-    width: 400px;
-    object-fit: cover;
-    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-right: 80px;
 }
 
-/*Botones*/
-
-button{
-    background-color: black;
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 18px;
-    font-size: 16px;
-}
 
 /*Titulo*/
-
 .titulo{
+    margin-left: 100px;
+    font-size: 50px;
+    width: 600px;
+    color: black;
+}
+
+/*Palabas*/
+
+
+h2{
+    font-size: 50px;
+    color: gray;
+}
+p{
+    color: gray;
     font-size: 25px;
+}
+/*Gallery*/
+
+.galeria{
+    justify-content: space-around;
+    display: flex;
+}
+
+/*Container*/
+
+.container{
     width: 400px;
-    height: 500px;
+    flex-direction: column;
 }
 
-/*Palabras*/
+/*Img*/
 
-.titulo-abajo{
-    color: rgb(184, 184, 184);
-    font-family: sans-serif;
-    font-weight: 10px;
-    font-size: 20px;
+img{
+    width: 500px;
+    height: 445px;
 }
-
-/*Imagenes-separadas*/
-
-.imagenes-separadas img{
-    height: 381px; 
-}
-
-/*imagen-arriba*/
-
-.upup{
-    margin-bottom: 100px;
-}
-
-.downdown{
-    margin-top: 100px;
-}
-
-.imagen-arriba img{
-    height: 500px;
-}
-
