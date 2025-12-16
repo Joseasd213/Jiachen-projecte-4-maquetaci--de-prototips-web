@@ -1,0 +1,73 @@
+/*Imagen*/
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Separador*/
+
+.between{
+    flex-wrap: wrap;
+}
+
+/*Flex*/
+
+.flex{
+    display: flex;
+}
+
+/*Imagen*/
+
+img{
+    height: 1200px;
+    padding-top: 120px;
+}
+/*Columna*/
+
+.container{
+    padding-top: 100px;
+    padding-left: 150px;
+    justify-content: center;
+    width: 824px;
+    height: 997px;
+}
+
+/*Titulo*/
+
+.titulo h1{
+    font-size: 75px;    
+}
+
+.titulo p{
+    font-size: 38px;
+}
+
+.numero h1{
+    color: gray;
+    font-size: 50px;
+}
+
+p{
+    color: gray;
+    font-size: 32px;    
+}
+
+/*Posicionamientos*/
+
+
+.textos{
+    padding-right: 100px;
+
+}
+
+/*button*/
+
+button{
+    background-color: black;
+    color: #fff;
+    margin-bottom: 100px;
+    padding: 12px 44px;
+    border-radius: 18px;
+    font-size: 26px;
+}
